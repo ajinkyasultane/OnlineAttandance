@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202034295570",
+    "project_id": "online-attandance-system-4af85",
+    "storage_bucket": "online-attandance-system-4af85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202034295570:android:da180c96e9e12fcdd8f9cb",
+        "android_client_info": {
+          "package_name": "com.ajinkya.onlineattandancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202034295570-5ktrv9t0llo341fd3sp92p9c9467rnsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHm_KCQy1iC8AjsRq3PdYO_oYV7M2hK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202034295570-5ktrv9t0llo341fd3sp92p9c9467rnsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

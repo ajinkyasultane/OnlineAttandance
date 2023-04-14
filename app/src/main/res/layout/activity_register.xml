@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv_login_logo1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_register_cardtitle"
+        app:cardBackgroundColor="@color/purple_200"
+        app:cardMaxElevation="34dp"
+        app:cardCornerRadius="17dp"
+        app:cardElevation="17dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="26dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:textSize="16sp"
+            android:textStyle="normal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_login_cardinfo"
+                android:text="Register Here"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Email Id"
+                android:inputType="textEmailAddress"
+                android:textAlignment="textStart"
+                android:textColor="@color/purple_700"
+                android:textColorHint="@color/purple_700"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="textStart"
+                android:textColor="@color/purple_700"
+                android:textColorHint="@color/purple_700"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="10dp"/>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Register"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:visibility="gone"
+                android:paddingLeft="137dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginNow"
+                android:text="Already Have Account?Click Here"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="30dp"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

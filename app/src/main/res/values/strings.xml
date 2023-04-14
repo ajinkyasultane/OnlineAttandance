@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Online Attandance System</string>
+
+    <array name="branch">
+        <item> IT</item>
+        <item> CO</item>
+        <item> CE</item>
+        <item> ME</item>
+        <item> EE</item>
+        <item> EX</item>
+
+
+
+    </array>
+</resources>
